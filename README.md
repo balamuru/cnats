@@ -2,7 +2,8 @@
 A C-Golang NATS client bridge
 
 ## Compilation
-* Compile a C .so `go build -o cnats.so -buildmode=c-shared cnats.go`
+* Init mod `go mod init`
+* Compile the C .so `go build -o cnats.so -buildmode=c-shared cnats.go`
 * Compile the C executable using the .so created earlier `gcc -o client client.c ./cnats.so`
 
 ## Testing
