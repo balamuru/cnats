@@ -1,5 +1,7 @@
 # cnats
-A C-Golang NATS client bridge
+A C-Golang NATS client bridge inspired by the articles 
+* https://medium.com/@ben.mcclelland/an-adventure-into-cgo-calling-go-code-with-c-b20aa6637e75
+* https://medium.com/learning-the-go-programming-language/calling-go-functions-from-other-languages-4c7d8bcc69bf
 
 ## Compilation
 * Init mod `go mod init`
